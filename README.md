@@ -36,10 +36,10 @@ The following graph demonstrates how HPS identifies the correct fundamental freq
    ```
 
 ## **Run the tuner**
-    
-    ```bash
-    python tuner.py
-    ```
+
+   ```bash
+   python tuner.py
+   ```
 
    Make sure microphone is on, and press Ctrl+C to stop.
 
