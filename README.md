@@ -19,26 +19,29 @@ The tuner processes incoming audio through several stages:
 ## Visualization of the HPS Logic
 The following graph demonstrates how HPS identifies the correct fundamental frequency (110Hz) even when the harmonics are physically louder in the original signal:
 
-![HPS Analysis Logic](HPS_imege.png)
+![HPS Analysis Logic](HPS_image.png)
 
 
-## **Clone the repository:**
+## **Clone the repository**
+   
    ```bash
    git clone https://github.com/danieltasat-Eng/Guitar-Tuner-HPS.git
    cd Guitar-Tuner-HPS
     ```
 
 ## **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 ## **Run the tuner**
+    
     ```bash
     python tuner.py
     ```
 
-  *Make sure microphone is on, and press Ctrl+C to stop.
+   Make sure microphone is on, and press Ctrl+C to stop.
 
 ## Acknowledgments
 This project was inspired by the work of chciken (https://github.com/not-chciken) and his implementation of the Harmonic Product   Spectrum algorithm for guitar tuning.
