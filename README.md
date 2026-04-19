@@ -27,7 +27,7 @@ The following graph demonstrates how HPS identifies the correct fundamental freq
    ```bash
    git clone https://github.com/danieltasat-Eng/Guitar-Tuner-HPS.git
    cd Guitar-Tuner-HPS
-      ```
+   ```
 
 ## **Install dependencies**
 
