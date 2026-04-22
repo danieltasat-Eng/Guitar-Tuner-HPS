@@ -16,6 +16,11 @@ The tuner processes incoming audio through several stages:
 3. **FFT:** Transformation into the frequency domain.
 4. **HPS (Harmonic Product Spectrum):** The spectrum is multiplied by its downsampled versions, which effectively isolates the fundamental frequency from its overtones.
 
+## Visualization of the overtones
+In theory, finding a note's pitch is as simple as identifying the highest peak in the frequency spectrum. However, the guitar is a complex acoustic instrument. When a string is plucked, it vibrates not only at its fundamental frequency, but also at integer multiples of that frequency, known as harmonics or overtones:
+
+![Overtones Logic](HARMONICS_VISUAL.png)
+
 ## Visualization of the HPS Logic
 The following graph demonstrates how HPS identifies the correct fundamental frequency (110Hz) even when the harmonics are physically louder in the original signal:
 
